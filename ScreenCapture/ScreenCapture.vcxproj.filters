@@ -1,0 +1,360 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resources\ToolNormalImage">
+      <UniqueIdentifier>{a2a23943-1ee0-41a0-a384-ed60347b5b65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\ToolHotImage">
+      <UniqueIdentifier>{49337292-8ac1-479b-a290-ad21a424575a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\ColorImage">
+      <UniqueIdentifier>{3653ed7f-186f-4102-9e52-e1ddd19117ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\PenSizeImage">
+      <UniqueIdentifier>{02352a0a-0639-4dda-b0bd-b79e7c255e99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\AppIcon">
+      <UniqueIdentifier>{f698a15f-6845-4fc1-9b1a-3892a7678810}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Cursor">
+      <UniqueIdentifier>{1cd00303-7ab9-45d2-b92d-39ad9534a4c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ScrnCapWnd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RectEx.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WndImpl.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalAPI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawGraph.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ToolWnd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Toolbar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ColorWnd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PreDefine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FullScreen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ScrnCapWnd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WndImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GlobalAPI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawGraph.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ToolWnd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Toolbar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ColorWnd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FullScreen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ScreenCapture.rc">
+      <Filter>Resources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Debug\IconRes\arrow.bmp">
+      <Filter>Resources\ToolNormalImage</Filter>
+    </None>
+    <None Include="..\Debug\IconRes\cancel.bmp">
+      <Filter>Resources\ToolNormalImage</Filter>
+    </None>
+    <None Include="..\Debug\IconRes\ellipse.bmp">
+      <Filter>Resources\ToolNormalImage</Filter>
+    </None>
+    <None Include="..\Debug\IconRes\finish.bmp">
+      <Filter>Resources\ToolNormalImage</Filter>
+    </None>
+    <None Include="..\Debug\IconRes\recap.bmp">
+      <Filter>Resources\ToolNormalImage</Filter>
+    </None>
+    <None Include="..\Debug\IconRes\highlight.bmp">
+      <Filter>Resources\ToolNormalImage</Filter>
+    </None>
+    <None Include="..\Debug\IconRes\redo.bmp">
+      <Filter>Resources\ToolNormalImage</Filter>
+    </None>
+    <None Include="..\Debug\IconRes\save.bmp">
+      <Filter>Resources\ToolNormalImage</Filter>
+    </None>
+    <None Include="..\Debug\IconRes\scrawl.bmp">
+      <Filter>Resources\ToolNormalImage</Filter>
+    </None>
+    <None Include="..\Debug\IconRes\undo.bmp">
+      <Filter>Resources\ToolNormalImage</Filter>
+    </None>
+    <None Include="..\Debug\IconRes\rectangle.bmp">
+      <Filter>Resources\ToolNormalImage</Filter>
+    </None>
+    <None Include="..\Debug\IconRes\hot\arrow_hot.bmp">
+      <Filter>Resources\ToolHotImage</Filter>
+    </None>
+    <None Include="..\Debug\IconRes\hot\cancel_hot.bmp">
+      <Filter>Resources\ToolHotImage</Filter>
+    </None>
+    <None Include="..\Debug\IconRes\hot\ellipse_hot.bmp">
+      <Filter>Resources\ToolHotImage</Filter>
+    </None>
+    <None Include="..\Debug\IconRes\hot\finish_hot.bmp">
+      <Filter>Resources\ToolHotImage</Filter>
+    </None>
+    <None Include="..\Debug\IconRes\hot\highlight_hot.bmp">
+      <Filter>Resources\ToolHotImage</Filter>
+    </None>
+    <None Include="..\Debug\IconRes\hot\recap_hot.bmp">
+      <Filter>Resources\ToolHotImage</Filter>
+    </None>
+    <None Include="..\Debug\IconRes\hot\rectangle_hot.bmp">
+      <Filter>Resources\ToolHotImage</Filter>
+    </None>
+    <None Include="..\Debug\IconRes\hot\redo_hot.bmp">
+      <Filter>Resources\ToolHotImage</Filter>
+    </None>
+    <None Include="..\Debug\IconRes\hot\save_hot.bmp">
+      <Filter>Resources\ToolHotImage</Filter>
+    </None>
+    <None Include="..\Debug\IconRes\hot\scrawl_hot.bmp">
+      <Filter>Resources\ToolHotImage</Filter>
+    </None>
+    <None Include="..\Debug\IconRes\hot\undo_hot.bmp">
+      <Filter>Resources\ToolHotImage</Filter>
+    </None>
+    <None Include="..\Debug\Color\color10.bmp">
+      <Filter>Resources\ColorImage</Filter>
+    </None>
+    <None Include="..\Debug\Color\color9.bmp">
+      <Filter>Resources\ColorImage</Filter>
+    </None>
+    <None Include="..\Debug\Color\color11.bmp">
+      <Filter>Resources\ColorImage</Filter>
+    </None>
+    <None Include="..\Debug\Color\color12.bmp">
+      <Filter>Resources\ColorImage</Filter>
+    </None>
+    <None Include="..\Debug\Color\color2.bmp">
+      <Filter>Resources\ColorImage</Filter>
+    </None>
+    <None Include="..\Debug\Color\color3.bmp">
+      <Filter>Resources\ColorImage</Filter>
+    </None>
+    <None Include="..\Debug\Color\color4.bmp">
+      <Filter>Resources\ColorImage</Filter>
+    </None>
+    <None Include="..\Debug\Color\color5.bmp">
+      <Filter>Resources\ColorImage</Filter>
+    </None>
+    <None Include="..\Debug\Color\color6.bmp">
+      <Filter>Resources\ColorImage</Filter>
+    </None>
+    <None Include="..\Debug\Color\color7.bmp">
+      <Filter>Resources\ColorImage</Filter>
+    </None>
+    <None Include="..\Debug\Color\color8.bmp">
+      <Filter>Resources\ColorImage</Filter>
+    </None>
+    <None Include="..\Debug\Color\color1.bmp">
+      <Filter>Resources\ColorImage</Filter>
+    </None>
+    <None Include="..\Debug\PenSize\size1.bmp">
+      <Filter>Resources\PenSizeImage</Filter>
+    </None>
+    <None Include="..\Debug\PenSize\size3.bmp">
+      <Filter>Resources\PenSizeImage</Filter>
+    </None>
+    <None Include="..\Debug\PenSize\size2.bmp">
+      <Filter>Resources\PenSizeImage</Filter>
+    </None>
+    <None Include="..\Debug\IconRes\AppIcon_Big.ico">
+      <Filter>Resources\AppIcon</Filter>
+    </None>
+    <None Include="..\Debug\IconRes\AppIcon_Small.ico">
+      <Filter>Resources\AppIcon</Filter>
+    </None>
+    <None Include="..\Debug\CursorRes\Colorful.cur">
+      <Filter>Resources\Cursor</Filter>
+    </None>
+    <None Include="ScreenCapture.aps" />
+    <None Include="..\Resources\CursorRes\Colorful.cur">
+      <Filter>Resources</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="sound\shutter.wav">
+      <Filter>Resources</Filter>
+    </Media>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\Resources\IconRes\AppIcon_Big.ico">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\IconRes\AppIcon_Small.ico">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\IconRes\normal\recap.bmp">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\IconRes\normal\save.bmp">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\IconRes\normal\rectangle.bmp">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\IconRes\normal\ellipse.bmp">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\IconRes\normal\arrow.bmp">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\IconRes\normal\scrawl.bmp">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\IconRes\normal\highlight.bmp">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\IconRes\normal\undo.bmp">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\IconRes\normal\redo.bmp">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\IconRes\normal\cancel.bmp">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\IconRes\normal\finish.bmp">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\IconRes\hot\recap_hot.bmp">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\IconRes\hot\save_hot.bmp">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\IconRes\hot\rectangle_hot.bmp">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\IconRes\hot\ellipse_hot.bmp">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\IconRes\hot\arrow_hot.bmp">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\IconRes\hot\scrawl_hot.bmp">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\IconRes\hot\highlight_hot.bmp">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\IconRes\hot\undo_hot.bmp">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\IconRes\hot\redo_hot.bmp">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\IconRes\hot\cancel_hot.bmp">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\IconRes\hot\finish_hot.bmp">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\Color\color1.bmp">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\Color\color2.bmp">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\Color\color3.bmp">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\Color\color4.bmp">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\Color\color5.bmp">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\Color\color6.bmp">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\Color\color7.bmp">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\Color\color8.bmp">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\Color\color9.bmp">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\Color\color10.bmp">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\Color\color11.bmp">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\Color\color12.bmp">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\PenSize\size1.bmp">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\PenSize\size2.bmp">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\PenSize\size3.bmp">
+      <Filter>Resources</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
